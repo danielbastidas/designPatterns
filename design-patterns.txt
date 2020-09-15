@@ -1,0 +1,1 @@
+Which is the difference between adapter and proxy pattern?
