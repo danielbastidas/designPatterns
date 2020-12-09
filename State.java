@@ -12,7 +12,9 @@ import java.util.stream.Stream;
  * A formalized construct  which manages state and transitions is called a
  * state machine.
  * Applies when there are state transitions with sufficient complexity
- * state -> transition/trigger/events -> state */
+ * state -> transition/trigger/events -> state
+ * It is a behavioral pattern
+ */
 class Scratch {
     public static void main(String[] args) {
         CombinationLock combinationLock = new CombinationLock(new int[]{1,2,3

@@ -1,9 +1,11 @@
-/** Allows adding extra behaviors to entire hierarchy of classes.
+/** Allows adding extra behaviors to an entire hierarchy of classes.
  * Helps you avoid type checks (cast, instance of).
  * A pattern where a component is allowed to traverse the entire inheritance
  * hierarchy. Implemented by propagating a single visit() method throughout the
  * entire hierarchy.
- * Creates a visitor for each element in the hierarchy */
+ * Creates a visitor for each element in the hierarchy
+ * It is a behavioral pattern
+ */
 class Scratch {
     public static void main(String[] args) {
         AdditionExpression additionExpression =
@@ -11,6 +13,7 @@ class Scratch {
         ExpressionPrinter expressionPrinter = new ExpressionPrinter();
         expressionPrinter.visit(additionExpression);
         assert expressionPrinter.toString().equals("(2+4)");
+        System.out.println(expressionPrinter.toString());
     }
 }
 

@@ -4,7 +4,15 @@ import java.util.List;
 /** Sequence of handlers processing an event one after another.
  * A chain of components who all get a chance to process a command or query,
  * optionally having a default processing implementation and an ability to
- * terminate the processing chain */
+ * terminate the processing chain
+ * It is a behavioral pattern
+ * For instance the validation of a station tally received through an https
+ * channel: the first component validates the digital signature of the data
+ * to ensure the data was not modifier. The next component in the chain
+ * decrypts and validate whether the data was transmitted from a device
+ * recognized by the application and the last component in the chain validate
+ * whether the data contains valid information, for example contest code
+ */
 class Scratch {
     public static void main(String[] args) {
         

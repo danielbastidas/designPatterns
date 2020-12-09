@@ -1,7 +1,9 @@
 /** A high-level blueprint for an algorithm to be completed by inheritors.
  * Template pattern does the same as Strategy pattern through inheritance.
  * Allows us to define the skeleton of the algorithm, with concrete
- * implementations defined  in subclasses.*/
+ * implementations defined in subclasses.
+ * It is a behavioral pattern
+ */
 class Scratch {
     public static void main(String[] args) {
         

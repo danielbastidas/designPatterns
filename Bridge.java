@@ -1,9 +1,10 @@
 /** Connecting components together  through abstractions.
  * Prevents cartesian product or complexity explosion
  * Avoids entity explosion on a class hierarchy.
- * a mechanism that decouples an interface (hierarchy) from an implementation
+ * A mechanism that decouples an interface (hierarchy) from an implementation
  * (hierarchy)
- *  */
+ * It is a structural pattern
+ */
 class Scratch {
     public static void main(String[] args) {
         System.out.println(new Triangle(new RasterRenderer()).toString());

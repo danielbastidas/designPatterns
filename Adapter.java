@@ -1,7 +1,12 @@
 /** Converts from one interface to another.
  * Getting the interface you want from the interface you have.
  * A construct which adapts an existing interface X to conform the required
- * interface Y  */
+ * interface Y
+ * It is an structural pattern
+ * For instance in my previous job we had created and adapter interface to
+ * provide data to a vote by internet application in JSON format. The data
+ * was originally provided in XML format
+ */
 class Scratch {
     public static void main(String[] args) {
         

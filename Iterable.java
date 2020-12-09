@@ -4,7 +4,9 @@ import java.util.Iterator;
 import java.util.List;
 
 /** How traversal of data structures happens and who makes it happen.
- * An object that facilitates the traversal of data structures */
+ * An object that facilitates the traversal of data structures
+ * It is a behavioral pattern
+ */
 class Scratch {
     public static void main(String[] args) {
         Node<Character> e = new Node<>('e');

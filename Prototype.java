@@ -3,7 +3,9 @@
  * Object copying of complicated objects
  * Deep copying/cloning.
  * A partially or fully initialized object that you copy (clone) and make use
-of * */
+ * of
+ * It is a creational pattern
+ */
 class Scratch {
     public static void main(String[] args) {
         

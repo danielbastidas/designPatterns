@@ -1,20 +1,26 @@
 Solid Principles
 - Single responsibility
+
 - Open closed: open for extension but close for modification
+
 - Liskov substitution: substitute a subclass for a base class -> subtypes must
 be substitutable for their base type
 It can be spotted when a method in a subclass is left without implementation
 because it does not make sense to have that method on that subclass
+Useful to to reduce coupling and facilitate code re-usability in your application.
+Liskov substitution principle is important because it reduces coupling and facilitates code reusability.
+
 - Interface segregation
+
 - Dependency inversion: A) High level modules should not depend on low level
 modules because lower level modules are more susceptible to changes.
 Both (high and low level modules) should depend on abstractions
 B) Abstractions should not depend on details. Details should depend on
 abstractions -> low level modules (susceptible to changes) should depend on
-abstractions too
+abstractions too.
 
 Abstract classes and interfaces don't change as often as concrete derivative
 classes does
 
 In other words dependency inversion principle states that code should only
-depend on things that don't change often
+depend on things that don't change often.

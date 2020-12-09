@@ -1,7 +1,9 @@
 /** An interface for accessing a particular resource.
  * A class that functions as an interface to a particular resource. That
  * resource may be remote, expensive to construct, or may require logging or
- * some other added functionality */
+ * some other added functionality
+ * It is a structural pattern
+ */
 class Scratch {
     public static void main(String[] args) {
         Dragon dragon =new Dragon();

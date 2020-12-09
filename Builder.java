@@ -1,3 +1,9 @@
+/** Builder pattern
+ * You construct an object piece by piece.
+ * Useful to avoid creating an object using too many parameters in the
+ * object's constructor
+ * It is a creational pattern
+ */
 import java.util.function.Supplier;
 
 class Scratch {

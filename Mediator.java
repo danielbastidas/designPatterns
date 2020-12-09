@@ -2,7 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** Facilitates communication between components without them necessary be
- * aware of each other or having direct (reference) access to each other */
+ * aware of each other or having direct (reference) access to each other
+ * It is a behavioral pattern
+ */
 class Scratch {
     public static void main(String[] args) {
         

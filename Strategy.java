@@ -1,7 +1,9 @@
 import java.util.Objects;
 
 /** Enables the exact behavior of a system to be selected either at run-time
- * (dynamic) or compile-time (static) */
+ * (dynamic) or compile-time (static)
+ * It is a behavioral pattern
+ */
 class Scratch {
     public static void main(String[] args) {
         

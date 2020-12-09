@@ -3,7 +3,9 @@
  * Do you want no behavior
  * Avoids null check
  * When there is no option of telling component A to use an instance o
- * component B */
+ * component B
+ * It is a behavioral pattern
+ */
 class Scratch {
     public static void main(String[] args) throws Exception {
         NullLog log = new NullLog();

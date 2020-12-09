@@ -5,7 +5,9 @@ import java.util.stream.Collectors;
 /** Memento design pattern.
  * Keeps snapshots of the changes in the system.
  * Allows rollback states
- * Can be used to implement undo/redo */
+ * Can be used to implement undo/redo
+ * It is a behavioral pattern
+ */
 class Scratch {
     public static void main(String[] args) {
         

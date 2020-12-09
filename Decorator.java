@@ -1,6 +1,10 @@
 /** Adding behavior without altering the class itself.
  * Facilitates the addition of behaviors to individual objects without
- * inheriting from them */
+ * inheriting from them
+ * It is a structural pattern
+ * For instance when you use the Java IO api when you are creating a reader
+ * on top of a input stream
+ * */
 class Scratch {
     public static void main(String[] args) {
         

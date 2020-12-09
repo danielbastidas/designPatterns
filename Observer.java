@@ -5,7 +5,9 @@ import java.util.List;
 import java.util.function.BiConsumer;
 
 
-/** You need to be informed about other object changes */
+/** You need to be informed about other object changes
+ * It is a behavioral pattern
+ */
 class Scratch {
     public static void main(String[] args) throws IOException {
         Game game = new Game();

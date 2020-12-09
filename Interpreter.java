@@ -5,8 +5,10 @@ import java.util.Map;
 import java.util.function.Predicate;
 
 /** A component that processes structured text data. Does so by turning it
- * into separate lexical tokens (lexing) and the interpreting sequences of
- * said tokens (parsing) */
+ * into separate lexical tokens (lexing) and then interpreting sequences of
+ * said tokens (parsing)
+ * It is a behavioral pattern
+ */
 class Scratch {
     public static void main(String[] args) {
         ExpressionProcessor expressionProcessor = new ExpressionProcessor();

@@ -1,6 +1,8 @@
 /** An object which represents an instruction to perform a particular action.
  * Contains all the information necessary for the action to be taken.
- * Allows you to perform an undo of the operation*/
+ * Allows you to perform an undo of the operation
+ * It is a behavioral pattern
+ */
 class Scratch {
     public static void main(String[] args) {
         

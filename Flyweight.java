@@ -3,7 +3,9 @@ import java.util.List;
 
 /** Space optimizations.
  * A space optimization technique that let us use less memory by storing
- * externally the data associated with similar objects */
+ * externally the data associated with similar objects
+ * It is a structural pattern
+ */
 class Scratch {
     public static void main(String[] args) {
         Sentence sentence = new Sentence("alpha beta gamma [] ");

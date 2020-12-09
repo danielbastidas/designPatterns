@@ -1,5 +1,5 @@
-/** Treating individual and aggregate(list) objects uniformly */
-import org.jetbrains.annotations.NotNull;
+/** Treating individual and aggregate(list) objects uniformly
+ * It is a structural pattern */
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -48,7 +48,6 @@ class SingleValue implements ValueContainer
         this.value = value;
     }
 
-    @NotNull
     @Override
     public Iterator<Integer> iterator() {
         return Collections.singleton(this.value).iterator();
